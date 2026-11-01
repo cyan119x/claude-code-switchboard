@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #ffffff; } .frame { fill: #ffffff; stroke: #e6e4dc; } .tab { fill: #f2f1ec; }
+    .ink { fill: #1f1e1b; } .muted { fill: #73716a; } .icon { stroke: #5f5e5a; fill: none; }
+    .eye { fill: none; stroke: #e4e3de; } .off { fill: #dddcd6; } .note { fill: #73716a; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1d1c1a; } .frame { fill: #1d1c1a; stroke: #3a3934; } .tab { fill: #2d2c29; }
+      .ink { fill: #ecebe6; } .muted { fill: #a3a19a; } .icon { stroke: #c3c2b7; }
+      .eye { stroke: #46453f; } .off { fill: #4b4a46; } .note { fill: #a3a19a; }
+    }
+  </style>
+  <rect class="bg" width="560" height="560"/>
+  <rect class="frame" x="16" y="16" width="528" height="528" rx="12"/>
+  <rect class="tab" x="28" y="28" width="66" height="26" rx="7"/>
+  <text class="ink" x="40" y="46" font-size="14">Mods ×</text>
+  <text class="muted" x="106" y="46" font-size="14">Backstage ×</text>
+
+  <!-- rows: icon, title, line, hint, eye, switch -->
+  <g font-size="14" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0,72)">
+      <path class="icon" d="M44 14c-2.8 0-4.5-1.9-4.5-4.3C39.5 6.8 42.4 5.5 42.6 2c2.2 1.4 4.3 4.1 4.3 6.1.6-.5.9-1.2 1-1.9.9 1.1 1.6 2.3 1.6 3.6C49.5 12.2 47 14 44 14z"/>
+      <text class="ink" font-weight="600" x="64" y="13" stroke="none">Ember</text>
+      <text class="muted" x="64" y="33" stroke="none">Cache timer, limits and Keep warm above the prompt</text>
+      <g transform="translate(436,-4)"><rect class="eye" x=".5" y=".5" width="29" height="25" rx="6"/><path class="icon" d="M6 13s3-5 9-5 9 5 9 5-3 5-9 5-9-5-9-5z"/><circle class="icon" cx="15" cy="13" r="2.4"/></g>
+      <g transform="translate(476,-4)"><rect width="44" height="26" rx="13" fill="#2f9e4f"/><circle cx="31" cy="13" r="10" fill="#fff"/></g>
+    </g>
+    <g transform="translate(0,142)">
+      <path class="icon" d="M41 2v12M47 2v12M39 10h4M45 5h4"/>
+      <text class="ink" font-weight="600" x="64" y="13" stroke="none">Backstage</text>
+      <text class="muted" x="64" y="33" stroke="none">A card per subagent and background task</text>
+      <text class="muted" x="64" y="53" font-style="italic" stroke="none">/backstage to open</text>
+      <g transform="translate(436,-4)"><rect class="eye" x=".5" y=".5" width="29" height="25" rx="6"/><path class="icon" d="M6 13s3-5 9-5 9 5 9 5-3 5-9 5-9-5-9-5z"/><circle class="icon" cx="15" cy="13" r="2.4"/></g>
+      <g transform="translate(476,-4)"><rect width="44" height="26" rx="13" fill="#2f9e4f"/><circle cx="31" cy="13" r="10" fill="#fff"/></g>
+    </g>
+    <g transform="translate(0,232)">
+      <path class="icon" d="M38.5 8h11M45 3.5 49.5 8 45 12.5"/>
+      <text class="ink" font-weight="600" x="64" y="13" stroke="none">Handoff</text>
+      <text class="muted" x="64" y="33" stroke="none">Moves a long chat to a fresh one</text>
+      <text class="muted" x="64" y="53" font-style="italic" stroke="none">/handoff to show it</text>
+      <g transform="translate(436,-4)"><rect class="eye" x=".5" y=".5" width="29" height="25" rx="6"/><path class="icon" d="M6 13s3-5 9-5 9 5 9 5-3 5-9 5-9-5-9-5z"/><circle class="icon" cx="15" cy="13" r="2.4"/><path class="icon" d="M7 5 23 21"/></g>
+      <g transform="translate(476,-4)"><rect width="44" height="26" rx="13" fill="#2f9e4f"/><circle cx="31" cy="13" r="10" fill="#fff"/></g>
+    </g>
+    <g transform="translate(0,322)" opacity=".5">
+      <path class="icon" d="M44 1.8 49 3.6v4c0 3.2-2.1 5.4-5 6.6-2.9-1.2-5-3.4-5-6.6v-4L44 1.8z"/>
+      <text class="ink" font-weight="600" x="64" y="13" stroke="none">Screen-Share Mode</text>
+      <text class="muted" x="64" y="33" stroke="none">Hides emails, phones and amounts</text>
+      <text class="muted" x="64" y="53" font-style="italic" stroke="none">/screen-share to hide private data</text>
+    </g>
+    <g transform="translate(476,318)"><rect class="off" width="44" height="26" rx="13"/><circle cx="13" cy="13" r="10" fill="#fff"/></g>
+  </g>
+
+  <text x="64" y="430" font-size="14" fill="#2f9e4f">Screen-Share Mode is off in every chat.</text>
+  <text class="note" x="64" y="454" font-size="14">Off means off in every chat. Hidden keeps it on but out</text>
+  <text class="note" x="64" y="474" font-size="14">of sight. Changes apply within 3 seconds.</text>
+  <text class="note" x="64" y="498" font-size="14">New mods appear here by themselves.</text>
+</svg>

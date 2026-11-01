@@ -1,0 +1,20 @@
+{
+  "name": "switchboard",
+  "version": "1.0.0",
+  "description": "One pane for every mod: see what is installed, switch a mod off in every chat, or hide its panel and band while it keeps running. /mods to open.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "cyan119x",
+    "url": "https://github.com/cyan119x"
+  },
+  "homepage": "https://github.com/cyan119x/claude-code-switchboard",
+  "repository": "https://github.com/cyan119x/claude-code-switchboard",
+  "keywords": [
+    "claude-code",
+    "mod",
+    "plugins",
+    "manager",
+    "switchboard"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-switchboard",
+  "owner": {
+    "name": "cyan119x",
+    "url": "https://github.com/cyan119x"
+  },
+  "description": "Switchboard, a Claude Code mod that lists every mod with a switch and a hide button.",
+  "plugins": [
+    {
+      "name": "switchboard",
+      "source": "./",
+      "description": "A Mods pane to see every mod, switch one off in every chat or hide its panel."
+    }
+  ]
+}
